@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS v5.3.8 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+        </header>
+        <main>
+            --A--
+            <div class="container">
+                <div class="text-center bg-secondary py-5">
+                    <h1>My First Bootstrap Page</h1>
+                    <p>Resize this responsive page to see the effect!</p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-sm-4">
+                        <h2>Column 1</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                        </p>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-sm-4">
+                        <h2>Column 2</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                        </p>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-sm-4">
+                        <h2>Column 3</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                        </p>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            --B--
+            <section class="container py-4">
+                <div class="row g-4">
+                    <aside class="col-12 col-lg-3">
+                        <h2 class="h4 text-secondary mb-3">Logo</h2>
+                        <nav class="nav flex-column">
+                            <a class="nav-link active bg-secondary text-white" href="#dashboard">Dashboard</a>
+                            <a class="nav-link text-secondary" href="#age">Age</a>
+                            <a class="nav-link text-secondary" href="#gender">Gender</a>
+                            <a class="nav-link text-secondary" href="#geo">Geo</a>
+                        </nav>
+                    </aside>
+
+                    <div class="col-12 col-lg-9" id="dashboard">
+                        <header class="mb-5">
+                            <h2 class="h5 mb-1">Dashboard</h2>
+                            <p class="text-secondary mb-0">Some text..</p>
+                        </header>
+
+                        <div class="row g-4 mb-5">
+                            <div class="col-12 col-sm-6 col-xl-3">
+                                <h3 class="h6 fw-normal">Users</h3>
+                                <p class="mb-0">1 Million</p>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3">
+                                <h3 class="h6 fw-normal">Pages</h3>
+                                <p class="mb-0">100 Million</p>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3">
+                                <h3 class="h6 fw-normal">Sessions</h3>
+                                <p class="mb-0">10 Million</p>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3">
+                                <h3 class="h6 fw-normal">Bounce</h3>
+                                <p class="mb-0">30%</p>
+                            </div>
+                        </div>
+
+                        <div class="row g-4 text-secondary" id="analytics">
+                            <div class="col-12 col-md-4">
+                                <p>Text</p>
+                                <p>Text</p>
+                                <p>Text</p>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <p>Text</p>
+                                <p>Text</p>
+                                <p>Text</p>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <p>Text</p>
+                                <p>Text</p>
+                                <p>Text</p>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="row gx-0">
+                                    <div class="col-6 text-center">
+                                        <p>Text</p>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <p>Text</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            --C--
+            <section class="container py-4">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Logo</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mainNav">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                            </ul>
+                            <a class="nav-link text-white" href="#login">Login</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="row g-4">
+                    <aside class="col-12 col-md-2">
+                        <nav class="nav flex-column">
+                            <a class="nav-link text-secondary" href="#link-1">Link</a>
+                            <a class="nav-link text-secondary" href="#link-2">Link</a>
+                            <a class="nav-link text-secondary" href="#link-3">Link</a>
+                        </nav>
+                    </aside>
+                    <div class="col-12 col-md-7" id="home">
+                        <h2 class="display-6">Welcome</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                            ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                            ea commodo consequat.
+                        </p>
+                        <h3 class="h4 mt-5">Test</h3>
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <aside class="col-12 col-md-3 d-flex flex-column gap-4 text-center">
+                        <div class="h-100 d-flex align-items-center justify-content-center">
+                            <h2 class="h6">ADS</h2>
+                        </div>
+                        <div class="h-100 d-flex align-items-center justify-content-center">
+                            <h2 class="h6">ADS</h2>
+                        </div>
+                    </aside>
+                </div>
+                <footer class="bg-dark text-white text-center py-5 mt-4">Footer Text</footer>
+            </section>
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
