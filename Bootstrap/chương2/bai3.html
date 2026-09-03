@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="vi" data-bs-theme="light">
+    <head>
+        <title>Bài 2.3 - Căn chỉnh hình ảnh</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS v5.3.8 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body class="bg-dark-subtle">
+        <main class="container col-xl-9 col-lg-10 my-4">
+            <div class="bg-body p-4 p-md-5 rounded-4 shadow">
+                <h2 class="text-center mb-4">Bài 2.3: Căn chỉnh hình ảnh</h2>
+
+            <!-- 1. Left alignment -->
+            <section class="border border-primary-subtle rounded-3 p-3 mb-3 bg-primary-subtle">
+                <h5>Left alignment <small>(This is default)</small></h5>
+
+                <div class="border rounded-3 p-2 bg-body" style="height: 170px;">
+                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" >
+                </div>
+            </section>
+
+            <!-- 2. Center alignment -->
+            <section class="border border-success-subtle rounded-3 p-3 mb-3 bg-success-subtle">
+                <h5>Center alignment using text alignment classes</h5>
+                <div class="border rounded-3 p-2 bg-body text-center" style="height: 170px;">
+                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" >
+                </div>
+            </section>
+
+            <!-- 3. Right alignment -->
+            <section class="border border-warning-subtle rounded-3 p-3 mb-3 bg-warning-subtle">
+                <h5>Right alignment using text alignment classes</h5>
+                <div class="border rounded-3 p-2 bg-body text-end" style="height: 170px;">
+                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" >
+                </div>
+            </section>
+            
+            <!-- 4. Float alignment -->
+            <section class="border border-info-subtle rounded-3 p-3 mb-3 bg-info-subtle">
+                <h5>Horizontal alignment using float classes</h5>
+                <div class="border rounded-3 p-2 bg-body clearfix" style="height: 170px;">
+                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" class="float-start" >
+                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" class="float-end" >
+                </div>
+            </section>
+
+            <!-- 5. Center block image -->
+            <section class="border border-danger-subtle rounded-3 p-3 bg-danger-subtle">
+                <h5>Center alignment of block-level image using auto margin</h5>
+                <div class="border rounded-3 p-2 bg-body" style="height: 170px;">
+                    <img
+                        src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" class="d-block mx-auto"/>
+                </div>
+            </section>
+            </div>
+
+        </main>
+        <!-- Bootstrap JavaScript Bundle -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+
+    </body>
+</html>
