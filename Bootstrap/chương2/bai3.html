@@ -1,72 +1,60 @@
 <!doctype html>
-<html lang="vi" data-bs-theme="light">
-    <head>
-        <title>Bài 2.3 - Căn chỉnh hình ảnh</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- Bootstrap CSS v5.3.8 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            crossorigin="anonymous"
-        />
-    </head>
-    <body class="bg-dark-subtle">
-        <main class="container col-xl-9 col-lg-10 my-4">
-            <div class="bg-body p-4 p-md-5 rounded-4 shadow">
-                <h2 class="text-center mb-4">Bài 2.3: Căn chỉnh hình ảnh</h2>
+<html lang="en" data-bs-theme="light">
 
-            <!-- 1. Left alignment -->
-            <section class="border border-primary-subtle rounded-3 p-3 mb-3 bg-primary-subtle">
-                <h5>Left alignment <small>(This is default)</small></h5>
+<head>
+    <title>Bài 2.3 - Căn chỉnh hình ảnh</title>
 
-                <div class="border rounded-3 p-2 bg-body" style="height: 170px;">
-                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" >
-                </div>
-            </section>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-            <!-- 2. Center alignment -->
-            <section class="border border-success-subtle rounded-3 p-3 mb-3 bg-success-subtle">
-                <h5>Center alignment using text alignment classes</h5>
-                <div class="border rounded-3 p-2 bg-body text-center" style="height: 170px;">
-                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" >
-                </div>
-            </section>
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous" />
+</head>
 
-            <!-- 3. Right alignment -->
-            <section class="border border-warning-subtle rounded-3 p-3 mb-3 bg-warning-subtle">
-                <h5>Right alignment using text alignment classes</h5>
-                <div class="border rounded-3 p-2 bg-body text-end" style="height: 170px;">
-                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" >
-                </div>
-            </section>
-            
-            <!-- 4. Float alignment -->
-            <section class="border border-info-subtle rounded-3 p-3 mb-3 bg-info-subtle">
-                <h5>Horizontal alignment using float classes</h5>
-                <div class="border rounded-3 p-2 bg-body clearfix" style="height: 170px;">
-                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" class="float-start" >
-                    <img src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" class="float-end" >
-                </div>
-            </section>
+<body>
 
-            <!-- 5. Center block image -->
-            <section class="border border-danger-subtle rounded-3 p-3 bg-danger-subtle">
-                <h5>Center alignment of block-level image using auto margin</h5>
-                <div class="border rounded-3 p-2 bg-body" style="height: 170px;">
-                    <img
-                        src="img/anh1.jpg" alt="Hình ảnh" width="60" height="60" class="d-block mx-auto"/>
-                </div>
-            </section>
-            </div>
+    <main class="container mt-4">
+        <h2>Bài 2.3: Căn chỉnh hình ảnh</h2>
+        <!-- Căn trái -->
+        <p>Left alignment (This is default)</p>
+        <div class="border border-dark p-2 mb-3">
+            <img src="img/anh1.jpg" width="50" height="50">
+        </div>
+        <!-- Căn giữa bằng text alignment -->
+        <p>Center alignment using text alignment classes</p>
+        <div class="border border-dark p-2 mb-3 text-center">
+            <img src="img/anh1.jpg" width="50" height="50">
+        </div>
+        <!-- Căn phải bằng text alignment -->
+        <p>Right alignment using text alignment classes</p>
+        <div class="border border-dark p-2 mb-3 text-end">
+            <img src="img/anh1.jpg" width="50" height="50">
+        </div>
+        <!-- Căn ngang bằng float -->
+        <p>Horizontal alignment using float classes</p>
 
-        </main>
-        <!-- Bootstrap JavaScript Bundle -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"
-        ></script>
+        <div class="border border-dark p-2 mb-3 clearfix">
+            <img src="img/anh1.jpg" width="50" height="50" class="float-start">
+            <img src="img/anh1.jpg" width="50" height="50" class="float-end">
+        </div>
+        <!-- Căn giữa bằng margin auto -->
+        <p>Center alignment of block-level image using auto margin</p>
+        <div class="border border-dark p-2 mb-3">
+            <img src="img/anh1.jpg" width="50" height="50" class="d-block mx-auto">
+        </div>
+    </main>
+    <!-- Bootstrap JavaScript Bundle -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrVcwKX/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous">
+    </script>
 
-    </body>
+</body>
+
 </html>
